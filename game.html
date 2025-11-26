@@ -110,6 +110,7 @@
       font-size: 1.1rem;
       text-shadow: 0 0 5px #000, 0 0 10px #000;
       line-height: 1.4;
+      white-space: pre-line;
     }
     
     /* Snow Effect */
@@ -277,7 +278,7 @@
     <div class="footer-content">
       <div class="footer-section">
         <h3>About Us</h3>
-        <p>Hello there! If you remember us from the Snakes and Ladders game, fantastic and if you’re new, even better! Maria McDade brought Stuart and me together in September, and this is our latest festive creation. Please stay tuned for more… and of course, Merry Christmas!</p>
+        <p>Stuart and I were introduced by Maria in September, and since then we’ve been dreaming up playful festive experiences to share with the team. This is just the first idea—stay tuned for more surprises!</p>
       </div>
       <div class="footer-section">
         <h3>Quick Links</h3>
@@ -292,7 +293,7 @@
   <div id="crackerOverlay">
     <div id="overlayBackdrop"></div>
     <div class="cracker-modal" role="dialog" aria-modal="true">
-      <img src="./Cracker.png" alt="Christmas cracker" class="cracker-image">
+      <img src="./cracker.png" alt="Christmas cracker" class="cracker-image">
       <div id="crackerText" class="cracker-text"></div>
     </div>
   </div>
@@ -345,18 +346,18 @@
       
       // Messages for each parcel number (1-12)
       const messages = {
-        1: "What's an IBM storage unit's favourite sport? Disk golf - it's all about minimising strokes!",
+        1: "What's an IBM storage unit's favourite sport?\nDisk golf - it's all about minimising strokes!",
         2: "IBM's Storage Insights offers AI-driven analytics to optimise storage environments, helping to reduce complexity and costs.",
-        3: "Why did the IBM FlashSystem become a DJ? It loved spinning disks",
+        3: "Why did the IBM FlashSystem become a DJ?\nIt loved spinning disks",
         4: "IBM Storage Scale, formerly known as General Parallel File System (GPFS), is a high-performance clustered file system that allows concurrent read/write operations from multiple nodes.",
-        5: "My email password has been hacked again. That's the third time I've had to rename the cat!",
+        5: "My email password has been hacked again.\nThat's the third time I've had to rename the cat!",
         6: "The IBM FlashSystem Cyber Recovery Guarantee ensures you can recover your secure, uncorrupted copies within 60 seconds.",
-        7: "Never use \"beef stew\" as your password. It's not stroganoff.",
+        7: "Never use \"beef stew\" as your password.\nIt's not stroganoff.",
         8: "IBM FlashSystem FCM4 has 5.5 times more write cycles than industry standard QLC solid-state drives.",
-        9: "Did you hear about the cybercriminal who got away? They ransomware.",
+        9: "Did you hear about the cybercriminal who got away?\nThey ransomware.",
         10: "I needed a password eight characters long, so I picked Snow White and the Seven Dwarves.",
-        11: "Why do developer's prefer dark mode? because light attracts bugs!!!",
-        12: "How do you eat a hard drive? One byte at a time!"
+        11: "Why do developer's prefer dark mode?\nBecause light attracts bugs!!!",
+        12: "How do you eat a hard drive?\nOne byte at a time!"
       };
       
       // Cracker overlay elements
